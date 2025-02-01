@@ -12,7 +12,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // MongoDB Connection
-const mongoURI = "mongodb+srv://jacksonnguyen:tghtns7A%40%40@rakutendrive.1o1j9.mongodb.net/?retryWrites=true&w=majority&appName=RakutenDrive";
+const mongoURI = "mongodb+srv://xxx:xxx@rakutendrive.1o1j9.mongodb.net/?retryWrites=true&w=majority&appName=RakutenDrive";
 mongoose
   .connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log("MongoDB connected"))
